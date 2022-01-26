@@ -167,3 +167,65 @@ footer span {
 	color: #77a466;
 	font-size: .8em;
 }
+
+
+/***** MOBILE *****/
+
+@media (min-width: 360px) {
+	body {
+		flex-flow: row wrap;
+	}
+
+	.container {
+		min-width: 360px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+		text-align: center;
+	}
+
+	header {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+		text-align: center;
+	}
+
+	header h1{
+		margin: 0;
+		padding: 15px 0;
+		border-bottom: 3px solid #77a466;
+	}
+
+	.top-section,.bottom-section {
+		align-items: center;
+		width: 100%;
+		flex-flow: column wrap;
+		text-align: center;
+	}
+
+	.main-title h2 {
+		text-align: center;
+	}
+
+	.section-one,.section-two,.section-three {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+		text-align: center;
+	}
+
+	.footer {
+		width: 100%;
+		flex-flow: row wrap;
+	}
+
+
+
+}
