@@ -136,15 +136,11 @@ header nav ul li a{
 	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	flex-flow: row wrap;
 	text-align: left;
 }
 
 .section-one h3 {
-	padding: 10px 0;
+	
 }
 
 .section-two {
@@ -152,12 +148,11 @@ header nav ul li a{
 }
 
 .section-two h3,{
-	padding: 10px 0px;
+	
 }
 
 .section-three h3 {
-	padding: 10px 44px;
-
+	
 }
 
 .menu {
